@@ -7,6 +7,7 @@ import wikipedia, re
 bot = telebot.TeleBot(config.token)
 wikipedia.set_lang('ru')
 
+##НАПИСАНО УЧЕНИКАМИ 12.А КЛАССА РИЖСКОЙ СРЕДНЕЙ ШКОЛЫ N80 АЛЕКСАНДРОЙ ОДИНЦОВОЙ И НИКИТОЙ ТЫЧКО
 
 
 @bot.message_handler(commands=['start'])
